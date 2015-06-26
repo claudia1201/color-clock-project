@@ -8,7 +8,7 @@ This assignment serves to reinforce JS fundamentals with `setInterval`, writing 
 
 ### Learning Objectives
 
-After completing this assignment, you should...
+After completing this assignment, I was able to:
 
 * Have mastery of general JS syntax
 * Be able to write a series of functions that achieve a series of steps
@@ -16,15 +16,12 @@ After completing this assignment, you should...
 
 ### Performance Objectives
 
-After completing this assignment, you should be able to effectively use:
+After completing this assignment, I was able to effectively use:
 
-* The install tools and processes given to you to build a site with SCSS and JS
+* The install tools and processes given to me to build a site with SCSS and JS
 * `gh-pages`
 * DRY code that is clean, readable, and testable
 
-## Normal Mode
-
-Create a new Github repo, setup your project files, and recreate the attached screencapture (`colorclock.gif`) as a webpage. Host this webpage on GitHub with the `gh-pages` branch.
 
 The color clock should do the following things:
 
@@ -36,13 +33,4 @@ The color clock should do the following things:
 
 **Converting time to color:**
 
-Remember, all CSS colors can be expressed as a collection of three integers **between 0 and 255**, inclusive -- one color each for red, green, and blue.
-
-These collected values can expressed in two different ways:
-
-* `rgb(60, 220, 35)`
-* `#3CDC23`
-
-The hour, minute, and second values in the current time should correspond to the red, blue, and green values in a CSS color, respectively. **Use the pre-written `convertTimePeriod` function to convert the hour/minute/second values to a 0-255 scale.** 
-
-You'll need to write code that converts the 0-255 value to two of the hexadecimal characters.
+The hour, minute, and second values in the current time should correspond to the red, blue, and green values in a CSS color, respectively. 
