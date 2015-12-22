@@ -1,0 +1,41 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+}
+.pageContainer{
+
+	width: 100%;
+	height: 100vh;
+	text-align: center;
+}
+	
+.clock{
+	font-size: 150px;
+	position: relative;
+	top: 50%;
+  	transform: translateY(-50%);
+  	color: white;
+}
+.color{
+	font-size: 150px;
+	position: relative;
+	top: 50%;
+  	transform: translateY(-50%);
+  	color: white;
+}
+.color{
+	display: none;
+}
+.clock.active{
+	display: block;
+}
+.clock.deactiveate{
+	display: none;
+}
+.color.active{
+	display: block;
+}
+.color.deactivate{
+	display: none;
+}
